@@ -1,0 +1,32 @@
+<div class="div__fathercont">
+    <app-icon-title></app-icon-title>
+  <div class="div__fathercont--flex">
+    <app-stepper></app-stepper>
+    <div class="div__fathercont--col">
+            <div class="div__information--contform">
+                <div>
+                    <span>Please provide us with your personal information to send you the item</span>
+                <div class="div__information--inputs-select">
+                    <div class="div__information-input-date">
+                        <app-input class="input__option" message="Date of Birth"></app-input>
+                        <div class="label__date-ej">
+                            <div>
+                                <label>MM/DD/YY</label>
+                            </div>
+                        </div>
+                    </div>
+                    <app-select [genders]="genders"></app-select>
+                    <app-input message="ID Number"></app-input>
+                </div>
+                </div>
+            </div>
+            <div class="div__contfather--btn">
+                <div class="div_contson--btn">
+                    <button class="button__next" mat-raised-button color="#006a61">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

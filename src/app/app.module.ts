@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SelectComponent } from './core/components/select/select.component';
@@ -13,11 +14,12 @@ import { IconTitleComponent } from './core/components/icon-title/icon-title.comp
     InputComponent,
     SelectComponent,
     StepperComponent,
-    IconTitleComponent
+    IconTitleComponent,
   ],
   imports: [
     CoreModule,
     BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,4 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./icon-title.component.sass']
 })
 export class IconTitleComponent {
+
 }

@@ -6,7 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import { StepperComponent } from './components/stepper/stepper.component';
 import {MatCardModule} from '@angular/material/card';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   imports: [
     CommonModule,
@@ -14,13 +14,15 @@ import {MatCardModule} from '@angular/material/card';
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule
   ],
   exports : [
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
   ],
+
 
 })
 export class CoreModule { }

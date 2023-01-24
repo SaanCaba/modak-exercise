@@ -1,107 +1,139 @@
 .div__fathercont
     height: 100vh
+    width: 100vh
+    background: red
     display: flex
     align-items: center
-    justify-content: center
-    position: relative
-    .div__fathercont--flex
-        height: 548px
-        width: 836px
-        background: linear-gradient(0deg, rgba(0, 106, 97, 0.05), rgba(0, 106, 97, 0.05)), #FAFDFB
-        border-radius: 12px
-        .div__fathercont--col
-            display: flex
-            flex-direction: column
-            align-items: flex-start
-            padding: 32px
-            gap: 32px
-            .div__information--contform
-                display: flex
-                justify-content: center
-                align-items: flex-start
-                padding: 0px
-                gap: 16px
-                height: 340px
-                width: 772px
-                margin: auto
-                div
-                    display: flex
-                    flex-direction: column
-                    gap: 15px
-                    span
-                    font-family: 'Poppins'
-                    font-style: normal
-                    font-weight: 400
-                    font-size: 22px
-                    line-height: 28px    
-            .div__information--inputs-select
+    div
+        .div__fathercont--flex
+            height: 548px
+            width: 376px
+            background: linear-gradient(0deg, rgba(0, 106, 97, 0.05), rgba(0, 106, 97, 0.05)), #FAFDFB
+            border-radius: 12px
+            .div__fathercont--col
                 display: flex
                 flex-direction: column
-                .div__information-input-date
+                align-items: flex-star
+                .div__information--contform
+                    div
+                        span
+                .div__information--inputs-select
+                    .div__information-input-date
+                        div
+                            div
+                                label
+                .input__option
+            .div__contfather--btn
+                .div_contson--btn
+                    .button__next
+                        span
+                                
+@media screen and (min-width: 64em)
+    .div__fathercont
+        height: 100vh
+        display: flex
+        align-items: center
+        justify-content: center
+        position: relative
+        div
+            .div__fathercont--flex
+                height: 548px
+                width: 836px
+                background: linear-gradient(0deg, rgba(0, 106, 97, 0.05), rgba(0, 106, 97, 0.05)), #FAFDFB
+                border-radius: 12px
+                .div__fathercont--col
                     display: flex
                     flex-direction: column
                     align-items: flex-start
-                    padding: 8px 0px 0px
-                    width: 772px
-                    height: 88px
-                    div
+                    padding: 32px
+                    gap: 32px
+                    .div__information--contform
                         display: flex
-                        flex-direction: row
+                        justify-content: center
                         align-items: flex-start
-                        transform: translateY(-60%)
-                        padding: 4px 0px
-                        widows: 772px
-                        height: 24px
+                        padding: 0px
+                        gap: 16px
+                        height: 340px
+                        width: 772px
+                        margin: auto
                         div
                             display: flex
-                            flex-direction: row
-                            align-items: center
-                            padding: 0px
-                            gap: 4px
-                            width: 740px
-                            height: 16px
-                            label
-                                width: 740px
-                                height: 16px
-                                font-family: 'Poppins'
+                            flex-direction: column
+                            gap: 15px
+                            span
+                            font-family: 'Poppins'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: 22px
+                            line-height: 28px    
+                    .div__information--inputs-select
+                        display: flex
+                        flex-direction: column
+                        .div__information-input-date
+                            display: flex
+                            flex-direction: column
+                            align-items: flex-start
+                            padding: 8px 0px 0px
+                            width: 772px
+                            height: 88px
+                            div
+                                display: flex
+                                flex-direction: row
+                                align-items: flex-start
+                                transform: translateY(-60%)
+                                padding: 4px 0px
+                                widows: 772px
+                                height: 24px
+                                div
+                                    display: flex
+                                    flex-direction: row
+                                    align-items: center
+                                    padding: 0px
+                                    gap: 4px
+                                    width: 740px
+                                    height: 16px
+                                    label
+                                        width: 740px
+                                        height: 16px
+                                        font-family: 'Poppins'
+                                        font-style: normal
+                                        font-weight: 300
+                                        font-size: 12px
+                                        line-height: 16px
+                                        letter-spacing: 0.4px
+                                        margin-left: 15px
+                    .input__option
+                        width: 100%
+                .div__contfather--btn
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    padding: 4px 0px
+                    width: 772px
+                    height: 48px
+                    .div_contson--btn
+                        display: flex
+                        flex-direction: row
+                        justify-content: center
+                        align-items: center
+                        padding: 10px 24px
+                        gap: 8px
+                        isolation: isolate
+                        width: 772px
+                        height: 40px
+                        margin-bottom: 40px
+                        .button__next
+                            width: 100%
+                            background: #006A61
+                            border-radius: 19px
+                            color: white
+                            font-size: 14px
+                            font-weight: 400
+                            span
+                                text-align: center
+                                font-family: 'Poppins', sans-serif
+                                font-weight: 400
                                 font-style: normal
-                                font-weight: 300
-                                font-size: 12px
-                                line-height: 16px
-                                letter-spacing: 0.4px
-                                margin-left: 15px
-            .input__option
-                width: 100%
-        .div__contfather--btn
-            display: flex
-            flex-direction: column
-            justify-content: center
-            align-items: center
-            padding: 4px 0px
-            width: 772px
-            height: 48px
-            .div_contson--btn
-                display: flex
-                flex-direction: row
-                justify-content: center
-                align-items: center
-                padding: 10px 24px
-                gap: 8px
-                isolation: isolate
-                width: 772px
-                height: 40px
-                margin-bottom: 40px
-                .button__next
-                    width: 100%
-                    background: #006A61
-                    border-radius: 19px
-                    color: white
-                    font-size: 14px
-                    font-weight: 400
-                    span
-                        text-align: center
-                        font-family: 'Poppins', sans-serif
-                        font-weight: 400
-                        font-style: normal
-                        font-size: 22px
-                        line-height: 28px
+                                font-size: 22px
+                                line-height: 28px

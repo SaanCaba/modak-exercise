@@ -1,16 +1,11 @@
-import { Component, Input, OnChanges, SimpleChange, SimpleChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-input',
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.sass']
 })
-export class InputComponent implements OnChanges {
+export class InputComponent  {
   @Input() message: string = ''
-  inputM:string = ''
-  constructor(){}
-  ngOnChanges(changes:SimpleChanges){
-    console.log('pe')
-  }
-  
+
 }

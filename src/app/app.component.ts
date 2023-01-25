@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-modak';
-  genders= [
-    "Male",
-    "Female",
-    "Other"
-  ]
+
 
 }

@@ -9,18 +9,19 @@ import {MatCardModule} from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 @NgModule({
   imports: [
+    FormsModule,
     CommonModule,
     BrowserAnimationsModule,
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
     MatCardModule,
-    FormsModule
   ],
   exports : [
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
+    FormsModule
   ],
 
 

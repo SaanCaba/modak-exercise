@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class SelectComponent {
   @Input() genders : string[] = []
+  select: string = 'Gender';
 
 }

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SelectComponent } from './core/components/select/select.component';
@@ -8,6 +7,7 @@ import { InputComponent } from './core/components/input/input.component';
 import { CoreModule } from './core/core.module';
 import { StepperComponent } from './core/components/stepper/stepper.component';
 import { IconTitleComponent } from './core/components/icon-title/icon-title.component';
+import { FormComponent } from './core/components/form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,11 +15,11 @@ import { IconTitleComponent } from './core/components/icon-title/icon-title.comp
     SelectComponent,
     StepperComponent,
     IconTitleComponent,
+    FormComponent
   ],
   imports: [
     CoreModule,
     BrowserModule,
-    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
